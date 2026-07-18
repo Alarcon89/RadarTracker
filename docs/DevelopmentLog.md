@@ -41,6 +41,17 @@ The simulation now updates a target's position every scan. This establishes the 
 - Verified target movement affects detection status
 - Improved radar scan output
 
+  ## Session 4 – Radar Sweep & Detection
+
+### Completed
+- Added rotating radar sweep
+- Added configurable sweep speed
+- Calculated target bearing
+- Calculated target distance
+- Implemented radar beam width detection
+- Added radar range detection
+- Displayed bearing and distance in console
+
 ## Notes
 
 The radar now determines whether targets are inside the detection range and reports both distance and bearing relative to the radar origin.
