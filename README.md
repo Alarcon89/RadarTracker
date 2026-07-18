@@ -16,6 +16,11 @@ This project is being developed as a professional software engineering portfolio
 - Constructor Overloading
 - Encapsulation
 - Dynamic Target Storage using std::vector
+- Multi-Target Tracking
+- Target Movement Simulation
+- Distance Calculation
+- Bearing Calculation
+- Detection Range
 
 ---
 
@@ -31,17 +36,27 @@ This project is being developed as a professional software engineering portfolio
 
 ## Roadmap
 
+### Phase 1 - Core Architecture
 - ✅ Target Class
 - ✅ Radar Class
-- ⏳ Target Movement
-- ⏳ Radar Scan Simulation
-- ⏳ Distance & Bearing Calculations
-- ⏳ Threat Assessment
-- ⏳ Graphical Radar Display
-- ⏳ Raspberry Pi Integration
-- ⏳ Servo Motor Control
-- ⏳ Ultrasonic Sensor Tracking
+- ✅ Multi-Target Storage
 
+### Phase 2 - Target Simulation
+- ✅ Target Movement
+- ✅ Distance Calculation
+- ✅ Bearing Calculation
+- ✅ Detection Range
+
+### Phase 3 - Advanced Radar
+- ⏳ Rotating Radar Sweep
+- ⏳ Target Prioritization
+- ⏳ Threat Assessment
+- ⏳ Radar Display
+
+### Phase 4 - Embedded Integration
+- ⏳ Raspberry Pi
+- ⏳ Servo Motor Control
+- ⏳ Ultrasonic Sensor
 ---
 
 ## Author
