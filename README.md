@@ -57,6 +57,12 @@ This project is being developed as a professional software engineering portfolio
 - ⏳ Raspberry Pi
 - ⏳ Servo Motor Control
 - ⏳ Ultrasonic Sensor
+
+- - Automatic Track Management
+- Track Age
+- Track Confidence
+- Lock Loss Detection
+- Target Reacquisition
 ---
 
 ## Author
