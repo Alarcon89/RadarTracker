@@ -52,6 +52,21 @@ The simulation now updates a target's position every scan. This establishes the 
 - Added radar range detection
 - Displayed bearing and distance in console
 
+- ## Session 5 - Intelligent Target Tracking
+
+### Completed
+
+- Added threat score based target prioritization
+- Implemented radar target locking
+- Added lock status reporting
+- Implemented automatic lock loss when targets leave radar range
+- Improved target selection algorithm
+- Added distance-based tie breaking for equal threat targets
+
+### Notes
+
+The radar now intelligently selects and tracks the highest priority target that is currently detectable. When no valid targets remain inside the radar coverage area, the system automatically clears the target lock.
+
 ## Notes
 
 The radar now determines whether targets are inside the detection range and reports both distance and bearing relative to the radar origin.
