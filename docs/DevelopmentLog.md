@@ -63,6 +63,27 @@ The simulation now updates a target's position every scan. This establishes the 
 - Improved target selection algorithm
 - Added distance-based tie breaking for equal threat targets
 
+- # Session 6 - Target Management
+
+## Completed
+
+- Added Track class to manage radar tracks
+- Implemented automatic Track ID assignment
+- Added Track Age
+- Added Track Confidence
+- Implemented Missed Scan counting
+- Added Active/Inactive track state
+- Added automatic track creation
+- Added target lock management
+- Implemented lock loss detection
+- Added target reacquisition logic
+- Updated radar scan to record detections and missed scans
+- Connected radar beam logic with track management
+
+## Notes
+
+The radar now maintains persistent tracks instead of simply displaying targets. Tracks accumulate age, confidence, and missed detections, allowing the simulation to mimic the behavior of a real radar tracking system.
+
 ### Notes
 
 The radar now intelligently selects and tracks the highest priority target that is currently detectable. When no valid targets remain inside the radar coverage area, the system automatically clears the target lock.
